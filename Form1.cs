@@ -13,7 +13,7 @@ namespace Croose
         public Form1()
         {
             InitializeComponent();
-
+            btnaddTab_Click(null, EventArgs.Empty); // This triggers the logic to create a tab, so it immediately gives you DuckDuckGo. Atleast I think it will.
         }
 
 
